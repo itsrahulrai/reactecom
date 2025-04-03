@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": " ",
+  "homepage": "https://itsrahulrai.github.io/reactecom/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
