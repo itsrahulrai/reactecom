@@ -31,8 +31,8 @@ const Navbar = () => {
               <Link to="/" className="hover:text-[#ef2853]">Home</Link>
               <Link to="/about" className="hover:text-[#ef2853]">About</Link>
               <Link to="/product" className="hover:text-[#ef2853]">Products</Link>
-              <Link to="" className="hover:text-[#ef2853]">Blog</Link>
-              <Link to="" className="hover:text-[#ef2853]">Contact</Link>
+              <Link to="/blogs" className="hover:text-[#ef2853]">Blogs</Link>
+              <Link to="/contact" className="hover:text-[#ef2853]">Contact</Link>
             </div>
           </div>
 

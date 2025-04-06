@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import ProductCard from "../components/ProductCard";
 import Sidebar from "../components/SidebarFilters";
+import Footer from "../components/Footer";
 import Pagination from "../components/Pagination";
 import { FiShoppingBag } from "react-icons/fi";
 import { RiFireFill } from "react-icons/ri";
@@ -61,9 +62,13 @@ const Product = () => {
               totalPages={Math.ceil(products.length / pageSize)}
               onPageChange={setCurrentPage}
             />
+
+            
           </div>
+          
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

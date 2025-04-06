@@ -2,13 +2,15 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import TimelineSection from "../components/Timeline";
 import TeamSection from "../components/TeamSection";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <div className="p-6 md:p-10 bg-gray-100">
+    <div className="bg-white-100">
       <HeroSection />
       <TimelineSection />
       <TeamSection />
+       <Footer />
     </div>
   );
 };

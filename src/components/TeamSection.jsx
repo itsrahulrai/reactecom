@@ -1,7 +1,7 @@
 import React from "react";
 const TeamSection = () => {
     return (
-      <div className="rounded mt-10 bg-gradient-to-r from-pink-500 to-red-500 text-white py-12 text-center shadow-md">
+      <div className="rounded mt-10 mb-10 bg-gradient-to-r from-pink-500 to-red-500 text-white py-12 text-center shadow-md">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
           Meet Our Leaders<br />
           <span className="block mt-4 text-2xl md:text-5xl font-serif bg-clip-text text-transparent">
@@ -15,7 +15,7 @@ const TeamSection = () => {
               className="bg-white shadow-lg rounded-xl p-8 w-72 text-center transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
             >
               <img
-                src="https://via.placeholder.com/150"
+                src="https://pixio-react.vercel.app/assets/6-CodJOEYz.png"
                 alt={leader.name}
                 className="w-28 h-28 mx-auto rounded-full border-4 border-pink-500 shadow-lg"
               />
